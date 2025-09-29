@@ -45,17 +45,24 @@ Includes a Jupyter interface (ipywidgets) to enter input data and predict energy
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/global-charging-patterns.git
+   git clone https://github.com/CatalinaNTU/EnergyConsumption.git
+   cd EnergyConsumption
    ```
-2. Install dependencies:
+
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-3. Open the analysis notebook in Jupyter:
-   ```bash
-   jupyter notebook notebooks/global_charging_patterns.ipynb
-   ```
 
+3. **Run the notebooks or scripts**
+- Train and save the model + scaler
+- Use the GUI file to test predictions with new data
+
+## Requirements
+
+- Python 3.8+
+- pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost, ipywidgets, joblib
+  
 ## Data Source
 
 The dataset used in this project is available on Kaggle. Refer to the [Kaggle notebook](https://www.kaggle.com/datasets/mrsimple07/energy-consumption-prediction/data) for direct data links and additional context.
